@@ -1,0 +1,75 @@
+[0m05:28:54.577443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32d3a2f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32d3a3610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32d3a2cd0>]}
+
+
+============================== 05:28:54.586109 | 1a54fba3-4c60-44cb-ba8c-848ced91fdf3 ==============================
+[0m05:28:54.586109 [info ] [MainThread]: Running with dbt=1.8.7
+[0m05:28:54.593381 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/8739aa8f-e3b7-42e3-9799-f89b4d912f5c', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --select tests/tfModel1000_1.sql --log-path logs/8739aa8f-e3b7-42e3-9799-f89b4d912f5c --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:28:55.379341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1a54fba3-4c60-44cb-ba8c-848ced91fdf3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd2ff36fd90>]}
+[0m05:28:55.442419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1a54fba3-4c60-44cb-ba8c-848ced91fdf3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32dad19d0>]}
+[0m05:28:55.448900 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m05:28:55.469250 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m05:28:59.220806 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 49 files added, 1 files changed.
+[0m05:28:59.227114 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_41.sql
+[0m05:28:59.233330 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_48.sql
+[0m05:28:59.239591 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_28.sql
+[0m05:28:59.244854 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_31.sql
+[0m05:28:59.250551 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_32.sql
+[0m05:28:59.256695 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_21.sql
+[0m05:28:59.262182 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_26.sql
+[0m05:28:59.269470 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_16.sql
+[0m05:28:59.276170 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_50.sql
+[0m05:28:59.283815 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_40.sql
+[0m05:28:59.290587 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_49.sql
+[0m05:28:59.297431 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_30.sql
+[0m05:28:59.303217 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_9.sql
+[0m05:28:59.312137 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_20.sql
+[0m05:28:59.318040 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_44.sql
+[0m05:28:59.323186 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_3.sql
+[0m05:28:59.329194 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_23.sql
+[0m05:28:59.335267 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_10.sql
+[0m05:28:59.341054 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_4.sql
+[0m05:28:59.346976 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_15.sql
+[0m05:28:59.352790 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_37.sql
+[0m05:28:59.357927 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_14.sql
+[0m05:28:59.363987 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_42.sql
+[0m05:28:59.370339 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_7.sql
+[0m05:28:59.376391 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_25.sql
+[0m05:28:59.381861 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_47.sql
+[0m05:28:59.387934 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_43.sql
+[0m05:28:59.394008 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_33.sql
+[0m05:28:59.399443 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_22.sql
+[0m05:28:59.405307 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_18.sql
+[0m05:28:59.411400 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_11.sql
+[0m05:28:59.417874 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_46.sql
+[0m05:28:59.423214 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_6.sql
+[0m05:28:59.428971 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_34.sql
+[0m05:28:59.435011 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_38.sql
+[0m05:28:59.440338 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_2.sql
+[0m05:28:59.446556 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_12.sql
+[0m05:28:59.451895 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_39.sql
+[0m05:28:59.457983 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_5.sql
+[0m05:28:59.464427 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_13.sql
+[0m05:28:59.470636 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_27.sql
+[0m05:28:59.476680 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_45.sql
+[0m05:28:59.484302 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_29.sql
+[0m05:28:59.489651 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_24.sql
+[0m05:28:59.494967 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_19.sql
+[0m05:28:59.500802 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_35.sql
+[0m05:28:59.507311 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_36.sql
+[0m05:28:59.512530 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_17.sql
+[0m05:28:59.518795 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_8.sql
+[0m05:28:59.524658 [debug] [MainThread]: Partial parsing: updated file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_1.sql
+[0m05:29:00.417676 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m05:29:00.455081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1a54fba3-4c60-44cb-ba8c-848ced91fdf3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd2fe3f7850>]}
+[0m05:29:01.618807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1a54fba3-4c60-44cb-ba8c-848ced91fdf3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd2fe30d590>]}
+[0m05:29:01.625527 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 50 data tests, 7 sources, 704 macros
+[0m05:29:01.631053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1a54fba3-4c60-44cb-ba8c-848ced91fdf3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd2fdee9210>]}
+[0m05:29:01.669611 [info ] [MainThread]: 
+[0m05:29:01.676374 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m05:29:01.682203 [debug] [MainThread]: Command end result
+[0m05:29:02.305418 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.7971168, "process_user_time": 4.74453, "process_kernel_time": 0.695461, "process_mem_max_rss": "214768", "process_in_blocks": "16280", "process_out_blocks": "63736"}
+[0m05:29:02.312301 [debug] [MainThread]: Command `dbt run` succeeded at 05:29:02.312132 after 7.80 seconds
+[0m05:29:02.318838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32d3a3150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd32d3a3e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd330cd32d0>]}
+[0m05:29:02.325374 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,227 @@
+[0m15:01:14.175262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26be80350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26be80150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26be7fc50>]}
+
+
+============================== 15:01:14.183960 | 9e8bc141-fd9a-48dc-9db1-1185f8014526 ==============================
+[0m15:01:14.183960 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:01:14.191358 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'debug': 'False', 'warn_error': 'None', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/1d93ecf3-6d7e-442a-a006-487c0b498ab7', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --select tests/tfModel1000_1.sql --log-path logs/1d93ecf3-6d7e-442a-a006-487c0b498ab7 --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:14.931990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9e8bc141-fd9a-48dc-9db1-1185f8014526', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26bceeb10>]}
+[0m15:01:14.989441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9e8bc141-fd9a-48dc-9db1-1185f8014526', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb23fb14050>]}
+[0m15:01:14.997425 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m15:01:15.021697 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m15:01:25.018064 [debug] [MainThread]: Partial parsing enabled: 2 files deleted, 200 files added, 0 files changed.
+[0m15:01:25.025755 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_149.sql
+[0m15:01:25.032436 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_112.sql
+[0m15:01:25.039644 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_122.sql
+[0m15:01:25.046588 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_96.sql
+[0m15:01:25.053565 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_158.sql
+[0m15:01:25.061048 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_11.sql
+[0m15:01:25.068149 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_37.sql
+[0m15:01:25.074930 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_127.sql
+[0m15:01:25.081576 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_193.sql
+[0m15:01:25.089454 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_132.sql
+[0m15:01:25.096854 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_151.sql
+[0m15:01:25.104185 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_91.sql
+[0m15:01:25.111286 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_75.sql
+[0m15:01:25.119636 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_113.sql
+[0m15:01:25.127106 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_70.sql
+[0m15:01:25.135817 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_71.sql
+[0m15:01:25.143142 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_7.sql
+[0m15:01:25.150507 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_13.sql
+[0m15:01:25.156601 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_3.sql
+[0m15:01:25.162926 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_79.sql
+[0m15:01:25.170283 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_133.sql
+[0m15:01:25.177943 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_135.sql
+[0m15:01:25.184938 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_129.sql
+[0m15:01:25.191222 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_121.sql
+[0m15:01:25.198047 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_160.sql
+[0m15:01:25.205506 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_58.sql
+[0m15:01:25.213087 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_167.sql
+[0m15:01:25.220243 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_172.sql
+[0m15:01:25.226410 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_77.sql
+[0m15:01:25.233721 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_6.sql
+[0m15:01:25.240939 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_66.sql
+[0m15:01:25.247221 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_93.sql
+[0m15:01:25.253487 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_116.sql
+[0m15:01:25.265936 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_52.sql
+[0m15:01:25.273395 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_187.sql
+[0m15:01:25.281789 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_162.sql
+[0m15:01:25.290010 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_62.sql
+[0m15:01:25.298273 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_189.sql
+[0m15:01:25.306600 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_126.sql
+[0m15:01:25.315118 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_28.sql
+[0m15:01:25.322540 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_17.sql
+[0m15:01:25.334001 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_131.sql
+[0m15:01:25.344129 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_99.sql
+[0m15:01:25.352331 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_100.sql
+[0m15:01:25.360933 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_191.sql
+[0m15:01:25.369247 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_97.sql
+[0m15:01:25.375635 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_141.sql
+[0m15:01:25.382841 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_81.sql
+[0m15:01:25.389937 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_185.sql
+[0m15:01:25.396143 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_118.sql
+[0m15:01:25.403304 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_35.sql
+[0m15:01:25.410093 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_103.sql
+[0m15:01:25.417083 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_198.sql
+[0m15:01:25.424322 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_119.sql
+[0m15:01:25.431089 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_194.sql
+[0m15:01:25.437873 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_105.sql
+[0m15:01:25.444477 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_57.sql
+[0m15:01:25.450778 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_73.sql
+[0m15:01:25.457877 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_166.sql
+[0m15:01:25.464722 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_24.sql
+[0m15:01:25.472020 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_111.sql
+[0m15:01:25.478647 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_98.sql
+[0m15:01:25.486012 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_68.sql
+[0m15:01:25.493137 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_85.sql
+[0m15:01:25.502326 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_138.sql
+[0m15:01:25.509829 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_14.sql
+[0m15:01:25.516207 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_200.sql
+[0m15:01:25.524483 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_27.sql
+[0m15:01:25.530950 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_163.sql
+[0m15:01:25.538282 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_49.sql
+[0m15:01:25.544727 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_169.sql
+[0m15:01:25.554686 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_4.sql
+[0m15:01:25.561408 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_114.sql
+[0m15:01:25.568288 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_47.sql
+[0m15:01:25.574458 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_5.sql
+[0m15:01:25.581467 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_78.sql
+[0m15:01:25.587572 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_190.sql
+[0m15:01:25.593629 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_173.sql
+[0m15:01:25.599813 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_82.sql
+[0m15:01:25.606631 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_110.sql
+[0m15:01:25.613907 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_89.sql
+[0m15:01:25.621119 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_186.sql
+[0m15:01:25.627450 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_92.sql
+[0m15:01:25.633485 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_1.sql
+[0m15:01:25.640653 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_56.sql
+[0m15:01:25.648280 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_192.sql
+[0m15:01:25.655878 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_168.sql
+[0m15:01:25.662961 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_107.sql
+[0m15:01:25.669666 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_90.sql
+[0m15:01:25.676791 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_95.sql
+[0m15:01:25.683208 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_38.sql
+[0m15:01:25.690404 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_40.sql
+[0m15:01:25.697689 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_199.sql
+[0m15:01:25.704215 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_86.sql
+[0m15:01:25.711578 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_53.sql
+[0m15:01:25.718595 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_171.sql
+[0m15:01:25.724763 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_63.sql
+[0m15:01:25.732066 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_59.sql
+[0m15:01:25.738461 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_176.sql
+[0m15:01:25.745528 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_196.sql
+[0m15:01:25.752402 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_8.sql
+[0m15:01:25.761870 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_182.sql
+[0m15:01:25.769366 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_41.sql
+[0m15:01:25.776867 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_179.sql
+[0m15:01:25.784151 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_177.sql
+[0m15:01:25.791560 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_2.sql
+[0m15:01:25.798976 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_101.sql
+[0m15:01:25.806355 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_156.sql
+[0m15:01:25.813359 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_134.sql
+[0m15:01:25.820164 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_18.sql
+[0m15:01:25.827241 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_46.sql
+[0m15:01:25.833467 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_159.sql
+[0m15:01:25.840963 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_50.sql
+[0m15:01:25.847650 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_51.sql
+[0m15:01:25.857760 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_39.sql
+[0m15:01:25.865011 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_55.sql
+[0m15:01:25.872525 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_108.sql
+[0m15:01:25.879330 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_161.sql
+[0m15:01:25.885530 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_197.sql
+[0m15:01:25.892668 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_140.sql
+[0m15:01:25.899833 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_195.sql
+[0m15:01:25.907077 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_115.sql
+[0m15:01:25.914274 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_54.sql
+[0m15:01:25.921550 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_147.sql
+[0m15:01:25.928010 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_30.sql
+[0m15:01:25.934366 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_143.sql
+[0m15:01:25.941328 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_22.sql
+[0m15:01:25.948268 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_128.sql
+[0m15:01:25.955187 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_23.sql
+[0m15:01:25.962210 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_123.sql
+[0m15:01:25.969026 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_174.sql
+[0m15:01:25.975766 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_48.sql
+[0m15:01:25.982621 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_83.sql
+[0m15:01:25.989807 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_165.sql
+[0m15:01:25.996758 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_9.sql
+[0m15:01:26.004096 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_184.sql
+[0m15:01:26.010843 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_170.sql
+[0m15:01:26.017959 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_74.sql
+[0m15:01:26.025397 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_21.sql
+[0m15:01:26.032703 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_104.sql
+[0m15:01:26.040071 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_80.sql
+[0m15:01:26.048615 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_61.sql
+[0m15:01:26.055628 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_72.sql
+[0m15:01:26.062925 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_146.sql
+[0m15:01:26.070295 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_152.sql
+[0m15:01:26.077038 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_84.sql
+[0m15:01:26.084103 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_142.sql
+[0m15:01:26.091763 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_16.sql
+[0m15:01:26.099423 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_155.sql
+[0m15:01:26.106222 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_76.sql
+[0m15:01:26.112956 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_157.sql
+[0m15:01:26.120304 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_124.sql
+[0m15:01:26.127366 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_67.sql
+[0m15:01:26.135356 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_139.sql
+[0m15:01:26.142908 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_178.sql
+[0m15:01:26.150416 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_64.sql
+[0m15:01:26.157973 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_150.sql
+[0m15:01:26.165264 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_36.sql
+[0m15:01:26.172437 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_33.sql
+[0m15:01:26.179689 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_29.sql
+[0m15:01:26.187139 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_102.sql
+[0m15:01:26.194562 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_145.sql
+[0m15:01:26.202008 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_65.sql
+[0m15:01:26.209708 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_137.sql
+[0m15:01:26.217118 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_144.sql
+[0m15:01:26.224506 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_148.sql
+[0m15:01:26.231975 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_10.sql
+[0m15:01:26.238868 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_88.sql
+[0m15:01:26.245798 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_117.sql
+[0m15:01:26.252940 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_125.sql
+[0m15:01:26.259863 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_20.sql
+[0m15:01:26.266981 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_12.sql
+[0m15:01:26.274459 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_175.sql
+[0m15:01:26.281399 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_31.sql
+[0m15:01:26.288551 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_180.sql
+[0m15:01:26.294700 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_15.sql
+[0m15:01:26.301938 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_42.sql
+[0m15:01:26.308978 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_34.sql
+[0m15:01:26.316106 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_188.sql
+[0m15:01:26.323184 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_25.sql
+[0m15:01:26.330487 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_109.sql
+[0m15:01:26.337746 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_32.sql
+[0m15:01:26.344810 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_19.sql
+[0m15:01:26.351888 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_44.sql
+[0m15:01:26.358871 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_69.sql
+[0m15:01:26.365813 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_106.sql
+[0m15:01:26.372847 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_120.sql
+[0m15:01:26.380092 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_164.sql
+[0m15:01:26.387380 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_26.sql
+[0m15:01:26.394424 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_94.sql
+[0m15:01:26.402272 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_153.sql
+[0m15:01:26.408967 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_154.sql
+[0m15:01:26.416225 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_136.sql
+[0m15:01:26.423351 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_60.sql
+[0m15:01:26.429839 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_87.sql
+[0m15:01:26.437183 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_45.sql
+[0m15:01:26.444468 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_181.sql
+[0m15:01:26.450689 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_130.sql
+[0m15:01:26.457760 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_183.sql
+[0m15:01:26.465099 [debug] [MainThread]: Partial parsing: added file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_43.sql
+[0m15:01:26.472141 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/test_Model1000_1.sql
+[0m15:01:26.479179 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/test_Model1000_2.sql
+[0m15:01:28.251718 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m15:01:28.403129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9e8bc141-fd9a-48dc-9db1-1185f8014526', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb23d3cbf90>]}
+[0m15:01:29.580640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9e8bc141-fd9a-48dc-9db1-1185f8014526', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26d24c990>]}
+[0m15:01:29.588335 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 200 data tests, 7 sources, 704 macros
+[0m15:01:29.595714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9e8bc141-fd9a-48dc-9db1-1185f8014526', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb23d997250>]}
+[0m15:01:29.637408 [info ] [MainThread]: 
+[0m15:01:29.644030 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:01:29.651061 [debug] [MainThread]: Command end result
+[0m15:01:30.358095 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 16.258524, "process_user_time": 6.003799, "process_kernel_time": 0.693362, "process_mem_max_rss": "221676", "process_in_blocks": "21824", "process_out_blocks": "68392"}
+[0m15:01:30.365616 [debug] [MainThread]: Command `dbt run` succeeded at 15:01:30.365440 after 16.27 seconds
+[0m15:01:30.372944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26bcbf610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb23cc9bb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb26f5fb290>]}
+[0m15:01:30.380258 [debug] [MainThread]: Flushing usage events

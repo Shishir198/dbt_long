@@ -1,0 +1,84 @@
+[0m09:32:21.000166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b8081fa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b809b4090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b8081f7d0>]}
+
+
+============================== 09:32:21.007206 | 6206b617-f83f-43fb-bb44-eaa9f639cd43 ==============================
+[0m09:32:21.007206 [info ] [MainThread]: Running with dbt=1.8.7
+[0m09:32:21.014142 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/53b8436e-0e1d-4718-9fba-4408c47242ab', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt compile --select models/IDE_model/Mohanmodel.sql --log-path logs/53b8436e-0e1d-4718-9fba-4408c47242ab --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:32:21.789482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b52498450>]}
+[0m09:32:21.850652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b80daedd0>]}
+[0m09:32:21.856605 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m09:32:21.880051 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m09:32:24.047584 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:32:24.056448 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:32:24.119414 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m09:32:24.311005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b54de8f10>]}
+[0m09:32:25.236493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b52516950>]}
+[0m09:32:25.242047 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 7 sources, 704 macros
+[0m09:32:25.247130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b513c06d0>]}
+[0m09:32:25.282527 [info ] [MainThread]: 
+[0m09:32:25.288338 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m09:32:25.364974 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET'
+[0m09:32:25.366066 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET_TARGET'
+[0m09:32:25.367080 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC'
+[0m09:32:25.389936 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET"
+[0m09:32:25.393638 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"
+[0m09:32:25.402876 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"
+[0m09:32:25.408077 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET" limit 10000
+[0m09:32:25.412276 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_TARGET" limit 10000
+[0m09:32:25.416633 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_PUBLIC" limit 10000
+[0m09:32:25.420817 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:25.426088 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:25.431149 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:25.436258 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:25.443138 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:25.448129 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:27.120988 [debug] [ThreadPool]: SQL status: SUCCESS 74 in 1.700 seconds
+[0m09:32:27.131318 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: Close
+[0m09:32:27.339915 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.914 seconds
+[0m09:32:27.348673 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: Close
+[0m09:32:27.422464 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.991 seconds
+[0m09:32:27.429714 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: Close
+[0m09:32:27.620978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6206b617-f83f-43fb-bb44-eaa9f639cd43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b5133da10>]}
+[0m09:32:27.627092 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:32:27.631787 [info ] [MainThread]: 
+[0m09:32:27.644827 [debug] [Thread-1 (]: Began running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:27.650499 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_FDC_QA_KIRUTHIKAA_TARGET_TARGET, now model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel)
+[0m09:32:27.655819 [debug] [Thread-1 (]: Began compiling node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:27.671721 [debug] [Thread-1 (]: Writing injected SQL for node "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"
+[0m09:32:27.690162 [debug] [Thread-1 (]: Began executing node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:27.696070 [debug] [Thread-1 (]: Finished running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:27.701483 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:32:27.707016 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET' was properly closed.
+[0m09:32:27.712380 [debug] [MainThread]: Connection 'model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel' was properly closed.
+[0m09:32:27.717303 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC' was properly closed.
+[0m09:32:27.723333 [debug] [MainThread]: Command end result
+[0m09:32:28.503663 [info ] [MainThread]: Compiled node 'Mohanmodel' is:
+
+ 
+with "Filter_1" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER" WHERE (("C_NATIONKEY" > 5))    
+),
+ 
+"Dataset_2" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER"    
+),
+ 
+"Union_1" as (
+ 
+SELECT Filter_1."C_CUSTKEY" AS "C_CUSTKEY", Filter_1."C_NAME" AS "C_NAME", Filter_1."C_ADDRESS" AS "C_ADDRESS", Filter_1."C_NATIONKEY" AS "C_NATIONKEY", Filter_1."C_PHONE" AS "C_PHONE", Filter_1."C_ACCTBAL" AS "C_ACCTBAL", Filter_1."C_MKTSEGMENT" AS "C_MKTSEGMENT", Filter_1."C_COMMENT" AS "C_COMMENT" FROM "Filter_1" AS Filter_1
+UNION ALL
+SELECT Dataset_2."C_CUSTKEY" AS "C_CUSTKEY", Dataset_2."C_NAME" AS "C_NAME", Dataset_2."C_ADDRESS" AS "C_ADDRESS", Dataset_2."C_NATIONKEY" AS "C_NATIONKEY", Dataset_2."C_PHONE" AS "C_PHONE", Dataset_2."C_ACCTBAL" AS "C_ACCTBAL", Dataset_2."C_MKTSEGMENT" AS "C_MKTSEGMENT", Dataset_2."C_COMMENT" AS "C_COMMENT" FROM "Dataset_2" AS Dataset_2
+     
+)
+ 
+ 
+SELECT * FROM "Union_1"
+[0m09:32:28.510235 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 7.573983, "process_user_time": 4.967912, "process_kernel_time": 0.813338, "process_mem_max_rss": "211108", "process_in_blocks": "15872", "process_out_blocks": "48320"}
+[0m09:32:28.515525 [debug] [MainThread]: Command `dbt compile` succeeded at 09:32:28.515279 after 7.58 seconds
+[0m09:32:28.521095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b81b13310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b80870150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9b84084610>]}
+[0m09:32:28.526773 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,39 @@
+version: 2
+sources:
+- name: FDC_SNOWFLAKE_SAMPLE_DATA_TPCH_SF1_2
+  database: SNOWFLAKE_SAMPLE_DATA
+  schema: TPCH_SF1
+  tables:
+  - name: NATION
+    quoting:
+      identifier: true
+  - name: LINEITEM
+    quoting:
+      identifier: true
+  - name: ORDERS
+    quoting:
+      identifier: true
+  - name: CUSTOMER
+    quoting:
+      identifier: true
+- name: FDC_SNOWFLAKE_SAMPLE_DATA_TPCH_SF100
+  database: SNOWFLAKE_SAMPLE_DATA
+  schema: TPCH_SF100
+  tables:
+  - name: CUSTOMER
+    quoting:
+      identifier: true
+- name: FDC_FDC_QA_KIRUTHIKAA_SOURCE_1
+  database: FDC_QA_KIRUTHIKAA
+  schema: SOURCE
+  tables:
+  - name: FDC_TABLE1
+    quoting:
+      identifier: true
+- name: FDC_FDC_QA_KIRUTHIKAA_SOURCE
+  database: FDC_QA_KIRUTHIKAA
+  schema: SOURCE
+  tables:
+  - name: FDC_TABLE1
+    quoting:
+      identifier: true

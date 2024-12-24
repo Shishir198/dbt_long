@@ -1,0 +1,111 @@
+[0m09:32:51.040571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e632f3910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e632f0610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e632f3590>]}
+
+
+============================== 09:32:51.047423 | c803fa45-ddc3-496c-94db-0195f4468671 ==============================
+[0m09:32:51.047423 [info ] [MainThread]: Running with dbt=1.8.7
+[0m09:32:51.053070 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/1f9ddaf1-8c61-459d-aae7-4bec511c583d', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select models/IDE_model/Mohanmodel.sql --log-path logs/1f9ddaf1-8c61-459d-aae7-4bec511c583d --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'send_anonymous_usage_stats': 'True'}
+[0m09:32:51.786566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e34f4cd90>]}
+[0m09:32:51.847158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e646da0d0>]}
+[0m09:32:51.852522 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m09:32:51.870914 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m09:32:53.940500 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:32:53.946245 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:32:54.010402 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m09:32:54.191112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e3783b4d0>]}
+[0m09:32:55.074098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e39e0bb50>]}
+[0m09:32:55.079645 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 7 sources, 704 macros
+[0m09:32:55.085108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e35036010>]}
+[0m09:32:55.118917 [info ] [MainThread]: 
+[0m09:32:55.124648 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m09:32:55.130888 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA'
+[0m09:32:55.152392 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA"
+[0m09:32:55.157449 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA"} */
+show terse schemas in database "FDC_QA_KIRUTHIKAA"
+    limit 10000
+[0m09:32:55.162414 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:55.166805 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:56.106480 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.944 seconds
+[0m09:32:56.113801 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA: Close
+[0m09:32:56.423984 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_FDC_QA_KIRUTHIKAA, now list_FDC_QA_KIRUTHIKAA_TARGET_TARGET)
+[0m09:32:56.425061 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET'
+[0m09:32:56.426044 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC'
+[0m09:32:56.440814 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"
+[0m09:32:56.444048 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET"
+[0m09:32:56.450827 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"
+[0m09:32:56.455991 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_TARGET" limit 10000
+[0m09:32:56.460402 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET" limit 10000
+[0m09:32:56.465635 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_PUBLIC" limit 10000
+[0m09:32:56.470274 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:32:56.475644 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:56.480054 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:32:56.485276 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:56.489667 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:56.494597 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:32:57.316677 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.846 seconds
+[0m09:32:57.324171 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: Close
+[0m09:32:57.342813 [debug] [ThreadPool]: SQL status: SUCCESS 74 in 0.867 seconds
+[0m09:32:57.352442 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: Close
+[0m09:32:57.486296 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.006 seconds
+[0m09:32:57.494044 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: Close
+[0m09:32:57.695124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e335f9e10>]}
+[0m09:32:57.701337 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m09:32:57.705836 [info ] [MainThread]: 
+[0m09:32:57.718311 [debug] [Thread-1 (]: Began running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:57.723826 [info ] [Thread-1 (]: 1 of 1 START sql table model TARGET_TARGET.Mohanmodel.sql ...................... [RUN]
+[0m09:32:57.728499 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_FDC_QA_KIRUTHIKAA_TARGET, now model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel)
+[0m09:32:57.733924 [debug] [Thread-1 (]: Began compiling node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:57.749663 [debug] [Thread-1 (]: Writing injected SQL for node "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"
+[0m09:32:57.767028 [debug] [Thread-1 (]: Began executing node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:32:57.803177 [debug] [Thread-1 (]: Writing runtime sql for node "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"
+[0m09:32:57.820367 [debug] [Thread-1 (]: Using snowflake connection "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"
+[0m09:32:57.824825 [debug] [Thread-1 (]: On model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "node_id": "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"} */
+create or replace  table "FDC_QA_KIRUTHIKAA"."TARGET_TARGET"."Mohanmodel.sql"
+         as
+        (
+ 
+with "Filter_1" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER" WHERE (("C_NATIONKEY" > 5))    
+),
+ 
+"Dataset_2" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER"    
+),
+ 
+"Union_1" as (
+ 
+SELECT Filter_1."C_CUSTKEY" AS "C_CUSTKEY", Filter_1."C_NAME" AS "C_NAME", Filter_1."C_ADDRESS" AS "C_ADDRESS", Filter_1."C_NATIONKEY" AS "C_NATIONKEY", Filter_1."C_PHONE" AS "C_PHONE", Filter_1."C_ACCTBAL" AS "C_ACCTBAL", Filter_1."C_MKTSEGMENT" AS "C_MKTSEGMENT", Filter_1."C_COMMENT" AS "C_COMMENT" FROM "Filter_1" AS Filter_1
+UNION ALL
+SELECT Dataset_2."C_CUSTKEY" AS "C_CUSTKEY", Dataset_2."C_NAME" AS "C_NAME", Dataset_2."C_ADDRESS" AS "C_ADDRESS", Dataset_2."C_NATIONKEY" AS "C_NATIONKEY", Dataset_2."C_PHONE" AS "C_PHONE", Dataset_2."C_ACCTBAL" AS "C_ACCTBAL", Dataset_2."C_MKTSEGMENT" AS "C_MKTSEGMENT", Dataset_2."C_COMMENT" AS "C_COMMENT" FROM "Dataset_2" AS Dataset_2
+     
+)
+ 
+ 
+SELECT * FROM "Union_1"
+        );
+[0m09:32:57.830354 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:32:57.835515 [debug] [Thread-1 (]: Snowflake adapter: Environment applicationName is 'None'
+[0m09:33:01.832574 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 4.002 seconds
+[0m09:33:01.855714 [debug] [Thread-1 (]: On model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel: Close
+[0m09:33:02.051360 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c803fa45-ddc3-496c-94db-0195f4468671', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e34fae350>]}
+[0m09:33:02.057484 [info ] [Thread-1 (]: 1 of 1 OK created sql table model TARGET_TARGET.Mohanmodel.sql ................. [[32mSUCCESS 1[0m in 4.32s]
+[0m09:33:02.063022 [debug] [Thread-1 (]: Finished running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m09:33:02.069109 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:33:02.074539 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET_TARGET' was properly closed.
+[0m09:33:02.078796 [debug] [MainThread]: Connection 'model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel' was properly closed.
+[0m09:33:02.083848 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC' was properly closed.
+[0m09:33:02.088110 [info ] [MainThread]: 
+[0m09:33:02.093388 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 6.96 seconds (6.96s).
+[0m09:33:02.098965 [debug] [MainThread]: Command end result
+[0m09:33:02.714111 [info ] [MainThread]: 
+[0m09:33:02.718854 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:33:02.723433 [info ] [MainThread]: 
+[0m09:33:02.728807 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m09:33:02.734652 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 11.753971, "process_user_time": 4.60134, "process_kernel_time": 0.641844, "process_mem_max_rss": "211512", "process_out_blocks": "47368", "process_in_blocks": "0"}
+[0m09:33:02.740168 [debug] [MainThread]: Command `dbt run` succeeded at 09:33:02.740020 after 11.76 seconds
+[0m09:33:02.745718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e63338ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e63338fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9e66b6c610>]}
+[0m09:33:02.751348 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,84 @@
+[0m11:57:31.376341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb21000bb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2101a04d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb21000ba10>]}
+
+
+============================== 11:57:31.382941 | f38fdb3f-9a80-426c-9ff5-622bb0513b5e ==============================
+[0m11:57:31.382941 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:57:31.387570 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/4b0126d0-2467-4627-bbe4-fb913be1e06d', 'fail_fast': 'False', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt compile --select models/IDE_model/Mohanmodel.sql --log-path logs/4b0126d0-2467-4627-bbe4-fb913be1e06d --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:57:32.169188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb1e1cddd90>]}
+[0m11:57:32.228602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2113e9ed0>]}
+[0m11:57:32.234368 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m11:57:32.252992 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m11:57:35.646251 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m11:57:35.652285 [debug] [MainThread]: Partial parsing: updated file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://models/IDE_model/Mohanmodel.sql
+[0m11:57:36.287676 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m11:57:36.327313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb1e0c94250>]}
+[0m11:57:37.372805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2117f68d0>]}
+[0m11:57:37.378332 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 7 sources, 704 macros
+[0m11:57:37.382820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb1e1b29250>]}
+[0m11:57:37.416380 [info ] [MainThread]: 
+[0m11:57:37.421248 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m11:57:37.496296 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC'
+[0m11:57:37.497312 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET'
+[0m11:57:37.498291 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_FDC_QA_KIRUTHIKAA_TARGET_TARGET'
+[0m11:57:37.518566 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"
+[0m11:57:37.521768 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET"
+[0m11:57:37.529597 [debug] [ThreadPool]: Using snowflake connection "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"
+[0m11:57:37.534800 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_PUBLIC" limit 10000
+[0m11:57:37.541101 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET" limit 10000
+[0m11:57:37.545512 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "8660e779-8a1e-4b76-9c7b-d358dde2fa77", "target_name": "dev", "connection_name": "list_FDC_QA_KIRUTHIKAA_TARGET_TARGET"} */
+show objects in "FDC_QA_KIRUTHIKAA"."TARGET_TARGET" limit 10000
+[0m11:57:37.550311 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:57:37.555289 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:57:37.560344 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:57:37.565609 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m11:57:37.570425 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m11:57:37.575321 [debug] [ThreadPool]: Snowflake adapter: Environment applicationName is 'None'
+[0m11:57:39.044495 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.484 seconds
+[0m11:57:39.051689 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_TARGET: Close
+[0m11:57:39.067873 [debug] [ThreadPool]: SQL status: SUCCESS 74 in 1.513 seconds
+[0m11:57:39.077413 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET: Close
+[0m11:57:39.079844 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.530 seconds
+[0m11:57:39.089590 [debug] [ThreadPool]: On list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC: Close
+[0m11:57:39.287898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f38fdb3f-9a80-426c-9ff5-622bb0513b5e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb1e0e02290>]}
+[0m11:57:39.293047 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m11:57:39.298249 [info ] [MainThread]: 
+[0m11:57:39.311914 [debug] [Thread-1 (]: Began running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m11:57:39.317128 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_FDC_QA_KIRUTHIKAA_TARGET_PUBLIC, now model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel)
+[0m11:57:39.322124 [debug] [Thread-1 (]: Began compiling node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m11:57:39.337425 [debug] [Thread-1 (]: Writing injected SQL for node "model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel"
+[0m11:57:39.356112 [debug] [Thread-1 (]: Began executing node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m11:57:39.360723 [debug] [Thread-1 (]: Finished running node model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel
+[0m11:57:39.366409 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:57:39.371304 [debug] [MainThread]: Connection 'model.FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77.Mohanmodel' was properly closed.
+[0m11:57:39.378040 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET' was properly closed.
+[0m11:57:39.382206 [debug] [MainThread]: Connection 'list_FDC_QA_KIRUTHIKAA_TARGET_TARGET' was properly closed.
+[0m11:57:39.387304 [debug] [MainThread]: Command end result
+[0m11:57:39.971316 [info ] [MainThread]: Compiled node 'Mohanmodel' is:
+
+ 
+with "Filter_1" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER" WHERE (("C_NATIONKEY" > 6))    
+),
+ 
+"Dataset_2" as (
+SELECT * FROM "SNOWFLAKE_SAMPLE_DATA"."TPCH_SF1"."CUSTOMER"    
+),
+ 
+"Union_1" as (
+ 
+SELECT Filter_1."C_CUSTKEY" AS "C_CUSTKEY", Filter_1."C_NAME" AS "C_NAME", Filter_1."C_ADDRESS" AS "C_ADDRESS", Filter_1."C_NATIONKEY" AS "C_NATIONKEY", Filter_1."C_PHONE" AS "C_PHONE", Filter_1."C_ACCTBAL" AS "C_ACCTBAL", Filter_1."C_MKTSEGMENT" AS "C_MKTSEGMENT", Filter_1."C_COMMENT" AS "C_COMMENT" FROM "Filter_1" AS Filter_1
+UNION ALL
+SELECT Dataset_2."C_CUSTKEY" AS "C_CUSTKEY", Dataset_2."C_NAME" AS "C_NAME", Dataset_2."C_ADDRESS" AS "C_ADDRESS", Dataset_2."C_NATIONKEY" AS "C_NATIONKEY", Dataset_2."C_PHONE" AS "C_PHONE", Dataset_2."C_ACCTBAL" AS "C_ACCTBAL", Dataset_2."C_MKTSEGMENT" AS "C_MKTSEGMENT", Dataset_2."C_COMMENT" AS "C_COMMENT" FROM "Dataset_2" AS Dataset_2
+     
+)
+ 
+ 
+SELECT * FROM "Union_1"
+[0m11:57:39.977457 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 8.662936, "process_user_time": 5.060119, "process_kernel_time": 0.833278, "process_mem_max_rss": "218492", "process_in_blocks": "8", "process_out_blocks": "64184"}
+[0m11:57:39.981867 [debug] [MainThread]: Command `dbt compile` succeeded at 11:57:39.981728 after 8.67 seconds
+[0m11:57:39.986969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2100396d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb213900650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb213900f10>]}
+[0m11:57:39.992278 [debug] [MainThread]: Flushing usage events

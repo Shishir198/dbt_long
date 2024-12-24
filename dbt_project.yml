@@ -1,0 +1,28 @@
+name: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77
+version: 1.0.0
+config-version: 2
+profile: 8660e779-8a1e-4b76-9c7b-d358dde2fa77
+model-paths:
+- models
+analysis-paths:
+- analyses
+test-paths:
+- tests
+seed-paths:
+- seeds
+macro-paths:
+- macros
+snapshot-paths:
+- snapshots
+clean-targets:
+- target
+- dbt_packages
+quoting:
+  identifier: true
+  database: true
+  schema: true
+models:
+  +transient: false
+  8660e779-8a1e-4b76-9c7b-d358dde2fa77:
+    table:
+      +materialized: table

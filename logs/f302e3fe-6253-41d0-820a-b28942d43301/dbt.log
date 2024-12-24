@@ -1,0 +1,225 @@
+[0m04:23:23.214536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6848d90050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6846c59650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6846912790>]}
+
+
+============================== 04:23:23.223735 | 89cf7028-a7d1-4a0f-a8c0-9db9acd06881 ==============================
+[0m04:23:23.223735 [info ] [MainThread]: Running with dbt=1.8.7
+[0m04:23:23.230712 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/perfdatae1@fosfor.com/data/FDC_8660e779-8a1e-4b76-9c7b-d358dde2fa77/logs/f302e3fe-6253-41d0-820a-b28942d43301', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select tests/tfModel1000_1.sql --log-path logs/f302e3fe-6253-41d0-820a-b28942d43301 --profiles-dir /app/conf/sourceDir/8660e779-8a1e-4b76-9c7b-d358dde2fa77/dbt_conf', 'send_anonymous_usage_stats': 'True'}
+[0m04:23:24.001526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '89cf7028-a7d1-4a0f-a8c0-9db9acd06881', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f681876cf10>]}
+[0m04:23:24.063035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '89cf7028-a7d1-4a0f-a8c0-9db9acd06881', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6847045950>]}
+[0m04:23:24.069826 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m04:23:24.091044 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m04:23:29.163122 [debug] [MainThread]: Partial parsing enabled: 199 files deleted, 0 files added, 1 files changed.
+[0m04:23:29.257842 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_55.sql
+[0m04:23:29.264591 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_13.sql
+[0m04:23:29.270841 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_196.sql
+[0m04:23:29.276744 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_124.sql
+[0m04:23:29.281764 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_178.sql
+[0m04:23:29.287048 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_115.sql
+[0m04:23:29.293010 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_41.sql
+[0m04:23:29.298173 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_54.sql
+[0m04:23:29.304245 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_23.sql
+[0m04:23:29.309580 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_154.sql
+[0m04:23:29.314628 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_46.sql
+[0m04:23:29.319867 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_22.sql
+[0m04:23:29.325646 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_85.sql
+[0m04:23:29.332819 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_164.sql
+[0m04:23:29.338590 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_57.sql
+[0m04:23:29.344320 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_93.sql
+[0m04:23:29.350264 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_141.sql
+[0m04:23:29.356531 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_95.sql
+[0m04:23:29.361857 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_172.sql
+[0m04:23:29.367004 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_52.sql
+[0m04:23:29.373087 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_17.sql
+[0m04:23:29.378188 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_117.sql
+[0m04:23:29.384278 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_186.sql
+[0m04:23:29.390456 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_58.sql
+[0m04:23:29.396515 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_192.sql
+[0m04:23:29.405382 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_151.sql
+[0m04:23:29.411495 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_133.sql
+[0m04:23:29.417405 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_28.sql
+[0m04:23:29.423279 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_140.sql
+[0m04:23:29.429331 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_105.sql
+[0m04:23:29.435082 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_48.sql
+[0m04:23:29.440248 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_182.sql
+[0m04:23:29.446260 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_67.sql
+[0m04:23:29.452216 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_90.sql
+[0m04:23:29.457308 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_158.sql
+[0m04:23:29.463391 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_114.sql
+[0m04:23:29.468528 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_180.sql
+[0m04:23:29.474341 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_5.sql
+[0m04:23:29.480475 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_138.sql
+[0m04:23:29.485624 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_167.sql
+[0m04:23:29.491365 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_110.sql
+[0m04:23:29.497629 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_68.sql
+[0m04:23:29.504616 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_69.sql
+[0m04:23:29.510878 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_8.sql
+[0m04:23:29.515982 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_33.sql
+[0m04:23:29.521777 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_31.sql
+[0m04:23:29.526909 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_4.sql
+[0m04:23:29.532247 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_146.sql
+[0m04:23:29.538370 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_125.sql
+[0m04:23:29.544311 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_183.sql
+[0m04:23:29.549904 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_15.sql
+[0m04:23:29.555852 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_11.sql
+[0m04:23:29.562151 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_49.sql
+[0m04:23:29.568035 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_34.sql
+[0m04:23:29.574033 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_198.sql
+[0m04:23:29.579837 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_187.sql
+[0m04:23:29.585866 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_88.sql
+[0m04:23:29.592015 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_139.sql
+[0m04:23:29.598173 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_109.sql
+[0m04:23:29.604321 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_60.sql
+[0m04:23:29.610568 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_170.sql
+[0m04:23:29.615824 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_137.sql
+[0m04:23:29.621502 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_25.sql
+[0m04:23:29.627790 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_27.sql
+[0m04:23:29.633067 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_149.sql
+[0m04:23:29.639111 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_150.sql
+[0m04:23:29.645331 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_194.sql
+[0m04:23:29.651635 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_199.sql
+[0m04:23:29.657262 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_76.sql
+[0m04:23:29.663622 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_130.sql
+[0m04:23:29.670878 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_107.sql
+[0m04:23:29.676112 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_73.sql
+[0m04:23:29.681355 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_193.sql
+[0m04:23:29.686553 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_103.sql
+[0m04:23:29.692009 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_132.sql
+[0m04:23:29.698191 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_142.sql
+[0m04:23:29.704341 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_176.sql
+[0m04:23:29.709778 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_75.sql
+[0m04:23:29.720964 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_51.sql
+[0m04:23:29.727168 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_45.sql
+[0m04:23:29.733747 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_143.sql
+[0m04:23:29.739441 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_156.sql
+[0m04:23:29.744616 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_36.sql
+[0m04:23:29.750524 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_134.sql
+[0m04:23:29.756744 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_162.sql
+[0m04:23:29.762083 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_43.sql
+[0m04:23:29.768112 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_188.sql
+[0m04:23:29.774203 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_160.sql
+[0m04:23:29.779655 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_177.sql
+[0m04:23:29.785468 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_112.sql
+[0m04:23:29.791270 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_171.sql
+[0m04:23:29.796342 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_39.sql
+[0m04:23:29.801764 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_59.sql
+[0m04:23:29.808114 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_108.sql
+[0m04:23:29.814372 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_86.sql
+[0m04:23:29.819737 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_122.sql
+[0m04:23:29.825925 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_175.sql
+[0m04:23:29.831269 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_179.sql
+[0m04:23:29.837481 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_147.sql
+[0m04:23:29.846317 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_89.sql
+[0m04:23:29.852912 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_50.sql
+[0m04:23:29.858613 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_10.sql
+[0m04:23:29.864694 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_121.sql
+[0m04:23:29.870873 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_136.sql
+[0m04:23:29.877213 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_70.sql
+[0m04:23:29.883524 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_99.sql
+[0m04:23:29.889563 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_118.sql
+[0m04:23:29.895547 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_91.sql
+[0m04:23:29.902279 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_166.sql
+[0m04:23:29.908022 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_29.sql
+[0m04:23:29.914502 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_6.sql
+[0m04:23:29.921137 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_94.sql
+[0m04:23:29.927463 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_42.sql
+[0m04:23:29.933364 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_92.sql
+[0m04:23:29.939595 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_161.sql
+[0m04:23:29.945801 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_64.sql
+[0m04:23:29.954080 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_111.sql
+[0m04:23:29.960882 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_14.sql
+[0m04:23:29.967290 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_189.sql
+[0m04:23:29.973976 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_56.sql
+[0m04:23:29.980196 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_24.sql
+[0m04:23:29.985934 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_32.sql
+[0m04:23:29.992174 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_163.sql
+[0m04:23:29.998104 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_191.sql
+[0m04:23:30.004128 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_16.sql
+[0m04:23:30.010522 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_9.sql
+[0m04:23:30.016742 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_173.sql
+[0m04:23:30.023179 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_131.sql
+[0m04:23:30.029338 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_197.sql
+[0m04:23:30.035436 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_200.sql
+[0m04:23:30.041641 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_72.sql
+[0m04:23:30.047683 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_53.sql
+[0m04:23:30.052840 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_18.sql
+[0m04:23:30.058854 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_148.sql
+[0m04:23:30.065096 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_97.sql
+[0m04:23:30.071561 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_190.sql
+[0m04:23:30.077684 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_77.sql
+[0m04:23:30.083546 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_119.sql
+[0m04:23:30.088938 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_3.sql
+[0m04:23:30.095383 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_153.sql
+[0m04:23:30.101823 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_21.sql
+[0m04:23:30.108049 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_2.sql
+[0m04:23:30.114561 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_66.sql
+[0m04:23:30.120894 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_159.sql
+[0m04:23:30.127090 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_101.sql
+[0m04:23:30.133048 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_79.sql
+[0m04:23:30.139205 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_30.sql
+[0m04:23:30.145433 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_63.sql
+[0m04:23:30.151788 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_116.sql
+[0m04:23:30.157801 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_169.sql
+[0m04:23:30.163979 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_40.sql
+[0m04:23:30.170174 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_184.sql
+[0m04:23:30.176448 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_104.sql
+[0m04:23:30.182637 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_126.sql
+[0m04:23:30.188750 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_129.sql
+[0m04:23:30.195109 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_44.sql
+[0m04:23:30.201156 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_80.sql
+[0m04:23:30.207333 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_84.sql
+[0m04:23:30.213659 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_47.sql
+[0m04:23:30.219294 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_100.sql
+[0m04:23:30.225620 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_127.sql
+[0m04:23:30.231881 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_157.sql
+[0m04:23:30.238076 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_37.sql
+[0m04:23:30.244336 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_168.sql
+[0m04:23:30.252809 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_113.sql
+[0m04:23:30.259006 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_35.sql
+[0m04:23:30.265249 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_106.sql
+[0m04:23:30.271782 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_78.sql
+[0m04:23:30.277782 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_152.sql
+[0m04:23:30.283829 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_19.sql
+[0m04:23:30.289774 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_165.sql
+[0m04:23:30.295140 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_87.sql
+[0m04:23:30.301414 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_20.sql
+[0m04:23:30.307462 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_145.sql
+[0m04:23:30.313652 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_62.sql
+[0m04:23:30.319926 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_81.sql
+[0m04:23:30.326323 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_98.sql
+[0m04:23:30.332192 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_83.sql
+[0m04:23:30.337881 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_65.sql
+[0m04:23:30.343938 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_74.sql
+[0m04:23:30.349836 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_135.sql
+[0m04:23:30.355820 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_7.sql
+[0m04:23:30.363003 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_12.sql
+[0m04:23:30.369253 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_82.sql
+[0m04:23:30.375050 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_144.sql
+[0m04:23:30.381147 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_96.sql
+[0m04:23:30.387238 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_123.sql
+[0m04:23:30.393348 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_128.sql
+[0m04:23:30.399784 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_174.sql
+[0m04:23:30.405935 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_61.sql
+[0m04:23:30.412302 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_155.sql
+[0m04:23:30.418483 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_181.sql
+[0m04:23:30.424598 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_185.sql
+[0m04:23:30.430641 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_38.sql
+[0m04:23:30.436676 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_195.sql
+[0m04:23:30.443907 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_120.sql
+[0m04:23:30.450259 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_71.sql
+[0m04:23:30.455967 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_102.sql
+[0m04:23:30.462115 [debug] [MainThread]: Partial parsing: deleted file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_26.sql
+[0m04:23:30.468154 [debug] [MainThread]: Partial parsing: updated file: FDC_8660e779_8a1e_4b76_9c7b_d358dde2fa77://tests/tfModel1000_1.sql
+[0m04:23:30.942551 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.8660e779-8a1e-4b76-9c7b-d358dde2fa77.table
+[0m04:23:30.982120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '89cf7028-a7d1-4a0f-a8c0-9db9acd06881', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6817566dd0>]}
+[0m04:23:32.042661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '89cf7028-a7d1-4a0f-a8c0-9db9acd06881', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f681b461250>]}
+[0m04:23:32.049153 [info ] [MainThread]: Found 976 models, 150 seeds, 50 snapshots, 1 test, 7 sources, 704 macros
+[0m04:23:32.055441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '89cf7028-a7d1-4a0f-a8c0-9db9acd06881', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6817334450>]}
+[0m04:23:32.090815 [info ] [MainThread]: 
+[0m04:23:32.097164 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m04:23:32.103814 [debug] [MainThread]: Command end result
+[0m04:23:32.587982 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 9.44865, "process_user_time": 4.531723, "process_kernel_time": 0.576593, "process_mem_max_rss": "215244", "process_in_blocks": "37312", "process_out_blocks": "63856"}
+[0m04:23:32.594482 [debug] [MainThread]: Command `dbt run` succeeded at 04:23:32.594334 after 9.46 seconds
+[0m04:23:32.600420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6846ace610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6846acffd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684a396fd0>]}
+[0m04:23:32.606693 [debug] [MainThread]: Flushing usage events
